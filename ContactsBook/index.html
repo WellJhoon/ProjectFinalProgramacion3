@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/normalize.css">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-bold-straight/css/uicons-bold-straight.css'>
+    <script defer src="/app.js"></script>
+    <script defer src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <title>Agenda de Télefono</title>
+</head>
+<body>
+    
+    <form class="buscar">
+        <input type="text" placeholder="Buscar en mis contactos..." class="buscar" id="buscar">
+    </form>
+    
+    <button id="log-Out">Salir</button>
+
+    <div id="main">
+        <div class="lista">
+            <ul></ul>            
+
+            <div class="vacio">
+                No tienes ningun contacto aqui !!
+            </div>
+        </div>
+
+        <div class="contenedor">
+            <i class="fi fi-bs-eclipse-alt" id="toogle"></i>
+                <div class="agregar">
+                <h2>Contactos</h2>
+                <img src="https://ouch-cdn2.icons8.com/i5jmC1ahLKIyoxxvs3Rw_GMuejy7IbRRSqALWm9tl_M/rs:fit:256:256/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9wbmcvMzE4/L2UzZTQ4NDg2LWIx/YTEtNGIwMS1hNjEw/LTVlYzdlMzAyNjA2/ZC5wbmc.png" class="contactIMG"> 
+                
+                <form class="form-agregar">
+                    <input type="text" placeholder="Nombre" id="nombre">
+                    <input type="text" placeholder="Apellido" id="apellido">
+                    <input type="text" placeholder="Numero Telefonico" id="telefono">
+                    <input type="text" placeholder="Direccion" id="direccion">
+                    <button id="btn-agregar">Agregar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

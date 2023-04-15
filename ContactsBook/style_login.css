@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=PT+Sans:ital@1&display=swap');
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    background: rgb(13, 53, 101);
+    font-family: 'Noto Serif', serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.formulario{
+    z-index: 3;
+    position: absolute;
+    background: rgb(185, 185, 190);
+    margin-top: 150px;
+    padding: 3px;
+    width: 500px;
+    border-radius: 20px;
+    height: 480px;
+}
+
+h1, .title{
+    text-align: center;
+    color: #1a2537;
+    font-size: 35px;
+}
+
+.tittle {
+    color: #6d0606;
+}
+
+input[type="text"], input[type="password"]{
+    font-size: 20px;
+    width: 82%;
+    padding: 20px;
+    border: none;
+}
+
+.contenedor{
+    width: 100%;
+    padding: 30px;
+}
+
+.input-contenedor{
+    margin-bottom: 20px;
+    border: 1px solid rgb(132, 135, 156);
+}
+
+.icon{
+    min-width: 50px;
+    text-align: center;
+    color: rgb(129, 126, 126);
+}
+
+#button, .button_register, #button_register{
+    border: none;
+    margin-top: 30px;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    background:  #1a2537;
+    padding: 15px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+#button:hover,.button_register:hover{
+    background: rgb(20, 57, 117);
+}
+
+#button_register:hover {
+    background-color: #334767;
+}
+
+p{
+    text-align: center;
+}
+
+.link{
+    text-decoration: none;
+    color: #1a2537;
+}
+
+.link:hover{
+     color: rgb(27, 68, 149);
+}
+
+img {
+    position: absolute;
+    z-index: 1;
+    width: 220px;
+    opacity: 0.9;
+}
+
+.imagen1 {
+    top: 120px;
+    left: 120px;
+}
+
+.imagen2 {
+    top: 100px;
+    right: 100px;
+}
+
+.imagen3 {
+    top: 450px;
+    left: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
